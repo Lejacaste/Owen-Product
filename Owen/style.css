@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    /* Establece el color de fondo, la fuente, el margen y el padding para el cuerpo del documento */
+}
+header {
+    text-align: justify;
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: rgb(218, 56, 7); 
+    color: white; 
+    border-radius: 20px;
+    border: none; 
+    /* Establece el color de fondo, el color del texto, el margen, el padding, el radio del borde y elimina el borde del encabezado */
+}
+header:hover {
+    background-color: rgb(138, 78, 206); /* Cambia el color de fondo del encabezado al pasar el mouse sobre él, el color morado queda bien al hacerse la transicion */
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(10, 3, 0);
+    color: white;
+    padding: 20px; 
+    transition: background-color 0.3s ease;  
+    /* Establece el color de fondo, el color del texto, el padding y una transición muy excelente al cambiar el color de fondo del título principal */
+}
+
+.imagen,
+.img1, 
+.img2,
+.img3,
+.img4 {
+    width: 20%;
+    height: auto;
+    display: inline-block; 
+    vertical-align: top;   
+    border-radius: 50%;
+    /* Cada una de las imagenes que tienen una clases, se les aplica tamaños especificos a todos los elegidos */
+}
+p {
+    text-align: justify;
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: rgb(142, 194, 177); 
+    color: white; 
+    border-radius: 10px;
+    border: none; 
+    /* Establece el color de fondo, el radio del borde y elimina el borde para los párrafos */
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(117, 228, 126); 
+    color: white; 
+    font-size: 0.9em; 
+    border-top: 2px solid rgb(113, 171, 179); /* Establece el estilo para el pie de página, incluyendo el color de fondo, el color del texto, el tamaño de fuente y un borde superior */
+}
